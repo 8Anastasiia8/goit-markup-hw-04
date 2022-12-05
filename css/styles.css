@@ -114,8 +114,8 @@ p {
 .contacts .contacts-list:focus {
   color: #2196f3;
 }
-.contacts:hover .nav-icons,
-.contacts:focus .nav-icons {
+.contacts-list:hover .nav-icons,
+.contacts-list:focus .nav-icons {
   fill: #2196f3;
 }
 .slogan-section {
@@ -438,16 +438,21 @@ img {
   background-color: #ffffff;
   border-radius: 50%;
 }
+.svg-icon {
+  height: 20px;
+}
 .soc-list-item:not(:last-child) {
   margin-right: 10px;
 }
 .svg-icon {
   fill: #afb1b8;
 }
-.soc-link:hover {
+.soc-link:hover,
+.soc-link:focus {
   background-color: #2196f3;
 }
-.soc-link:hover .svg-icon {
+.soc-link:hover .svg-icon,
+.soc-link:focus .svg-icon {
   fill: #ffffff;
 }
 
@@ -457,7 +462,7 @@ img {
   align-items: center;
   margin-top: 50px;
 }
-.group {
+.group-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -470,12 +475,17 @@ img {
 .group:not(:last-child) {
   margin-right: 30px;
 }
-.group:hover {
+.clients-icon {
+  fill: #afb1b8;
+}
+.group-link:hover,
+.group-link:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
 }
-.clients-icon {
-  fill: currentColor;
+.group-link:hover .clients-icon,
+.group-link:focus .clients-icon {
+  fill: #2196f3;
 }
 
 .footer {
